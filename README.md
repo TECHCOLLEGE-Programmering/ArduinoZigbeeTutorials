@@ -1,5 +1,39 @@
 # ArduinoZigbeeTutorials (Danish)
 
+Settings for XBee S2C til arduino projekter.
+Sørg for at have installeret Digi's XCTU værktøj til configurering af XBee devides.
+Giv netværket et unik ID, som skal bruges til alle enheder der skal være på samme netværk.
+
+![billede](https://github.com/lkri-dev/ArduinoZigbeeTutorials/assets/59120028/b73f0b88-8e15-4660-94f3-2b0e64190083)
+
+Set om enheden skal være coordinatoren for mesh netværket.
+
+![billede](https://github.com/lkri-dev/ArduinoZigbeeTutorials/assets/59120028/6fb6edb2-693a-44d1-ba4e-e5704be53a8c)
+
+Giv enheden et identifiserende navn.
+
+![billede](https://github.com/lkri-dev/ArduinoZigbeeTutorials/assets/59120028/1b368de7-22ce-4544-868f-2b0659fd9afa)
+--
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=uBkQUph9EKM
+" target="_blank"><img src="http://img.youtube.com/vi/uBkQUph9EKM/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="540" height="380" border="10" /></a>
+
+*Vigtig!* For at kunne sende pakker med Arduino biblioteket, skal man configurer XBee modulet til at være "API enabled with escaping [2]". [Kilde](https://forum.arduino.cc/t/solved-workaround-solution-arduino-xbee-to-usb-xbee-communication-problem/455304/2)
+
+![billede](https://github.com/lkri-dev/ArduinoZigbeeTutorials/assets/59120028/e70a4646-ffc7-49ba-8eb7-ca2cf34d5a78)
+
+Ved brug af XBee modul uden shield/hat se: XBee S2 (ZigBee) Interfacing with Arduino UNO | Arduino
+
+Common XBee Mistakes – Rob Faludi
+
+Installer biblioteket XBee-Arduino library:
+
+![billede](https://github.com/lkri-dev/ArduinoZigbeeTutorials/assets/59120028/01dd76ce-9e81-4b08-b7c3-fc6c5ae2de56)
+
+![billede](https://github.com/lkri-dev/ArduinoZigbeeTutorials/assets/59120028/7e2d892a-2717-4af5-bac4-9a1bc3d7b840)
+
+[XBee/XBee-PRO® S2C Zigbee® RF Module User Guide - 90002002.pdf](https://www.digi.com/resources/documentation/digidocs/pdfs/90002002.pdf)
+
 ## Raspberry / Linux instructions
 
 Denne guide antager at man allerede har et XBee module der er konfigureret og at man har XCTU fra Digi til at virke.
